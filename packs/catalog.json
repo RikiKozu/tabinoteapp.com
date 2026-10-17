@@ -1,0 +1,9 @@
+{
+ "packs": [
+  {
+   "id": "world-heritage",
+   "revision": 1,
+   "url": "world-heritage.json"
+  }
+ ]
+}
