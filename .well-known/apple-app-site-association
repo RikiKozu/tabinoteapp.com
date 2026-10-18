@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["WK5DK7A629.com.tabinote.app"],
+        "components": [
+          { "/": "/collections/*", "comment": "パックの紹介ページ → アプリのパック" },
+          { "/": "/municipalities/*", "comment": "市区町村マップ" }
+        ]
+      }
+    ]
+  }
+}

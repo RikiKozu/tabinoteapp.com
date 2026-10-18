@@ -2,8 +2,74 @@
  "packs": [
   {
    "id": "world-heritage",
-   "revision": 1,
+   "revision": 2,
    "url": "world-heritage.json"
+  }
+ ],
+ "candidates": [
+  {
+   "id": "onsen",
+   "title": "温泉地",
+   "title_en": "Hot Springs",
+   "subtitle": "全国の名湯・温泉地をめぐる",
+   "subtitle_en": "Famous hot-spring towns across Japan",
+   "icon": "drop"
+  },
+  {
+   "id": "waterfalls",
+   "title": "日本の名瀑",
+   "title_en": "Waterfalls",
+   "subtitle": "全国の名だたる滝を見に行く",
+   "subtitle_en": "Japan's great waterfalls",
+   "icon": "water.waves"
+  },
+  {
+   "id": "islands",
+   "title": "日本の島",
+   "title_en": "Islands of Japan",
+   "subtitle": "人が暮らす島を渡り歩く",
+   "subtitle_en": "Hop around Japan's inhabited islands",
+   "icon": "sailboat"
+  },
+  {
+   "id": "kokuho",
+   "title": "国宝の建造物",
+   "title_en": "National Treasure Buildings",
+   "subtitle": "国宝の寺社・城・建物を見に行く",
+   "subtitle_en": "Temples, shrines and castles designated National Treasures",
+   "icon": "building.columns.fill"
+  },
+  {
+   "id": "museums",
+   "title": "美術館・博物館",
+   "title_en": "Museums",
+   "subtitle": "全国の主な美術館・博物館",
+   "subtitle_en": "Major art museums and museums in Japan",
+   "icon": "paintpalette"
+  },
+  {
+   "id": "sakura",
+   "title": "桜の名所",
+   "title_en": "Cherry Blossom Spots",
+   "subtitle": "全国の桜の名所をめぐる",
+   "subtitle_en": "Famous cherry blossom spots",
+   "icon": "camera.macro"
+  },
+  {
+   "id": "towers",
+   "title": "タワー・展望台",
+   "title_en": "Towers & Observatories",
+   "subtitle": "全国のタワーと展望台にのぼる",
+   "subtitle_en": "Climb Japan's towers and observation decks",
+   "icon": "building.2"
+  },
+  {
+   "id": "capitals",
+   "title": "世界の首都",
+   "title_en": "World Capitals",
+   "subtitle": "世界の首都を訪ねる",
+   "subtitle_en": "Visit the capital cities of the world",
+   "icon": "flag"
   }
  ]
 }
