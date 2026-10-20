@@ -4,6 +4,114 @@
    "id": "world-heritage",
    "revision": 2,
    "url": "world-heritage.json"
+  },
+  {
+   "id": "shikoku88",
+   "revision": 1,
+   "url": "shikoku88.json",
+   "min_app_version": "2.0.1"
+  },
+  {
+   "id": "ichinomiya",
+   "revision": 1,
+   "url": "ichinomiya.json",
+   "min_app_version": "2.0.1"
+  },
+  {
+   "id": "mountains",
+   "revision": 1,
+   "url": "mountains.json",
+   "min_app_version": "2.0.1"
+  },
+  {
+   "id": "ski",
+   "revision": 1,
+   "url": "ski.json",
+   "min_app_version": "2.0.1"
+  },
+  {
+   "id": "jstadiums",
+   "revision": 1,
+   "url": "jstadiums.json",
+   "min_app_version": "2.0.1"
+  },
+  {
+   "id": "hyakkannon",
+   "revision": 1,
+   "url": "hyakkannon.json",
+   "min_app_version": "2.0.1"
+  },
+  {
+   "id": "eurostadiums",
+   "revision": 1,
+   "url": "eurostadiums.json",
+   "min_app_version": "2.0.1"
+  },
+  {
+   "id": "baseball",
+   "revision": 1,
+   "url": "baseball.json",
+   "min_app_version": "2.0.1"
+  },
+  {
+   "id": "yamaokaya",
+   "revision": 1,
+   "url": "yamaokaya.json",
+   "min_app_version": "2.0.1"
+  },
+  {
+   "id": "sauna",
+   "revision": 1,
+   "url": "sauna.json",
+   "min_app_version": "2.0.1"
+  },
+  {
+   "id": "castles",
+   "revision": 1,
+   "url": "castles.json",
+   "min_app_version": "2.0.1"
+  },
+  {
+   "id": "nationalparks",
+   "revision": 1,
+   "url": "nationalparks.json",
+   "min_app_version": "2.0.1"
+  },
+  {
+   "id": "meisho",
+   "revision": 1,
+   "url": "meisho.json",
+   "min_app_version": "2.0.1"
+  },
+  {
+   "id": "michinoeki",
+   "revision": 1,
+   "url": "michinoeki.json",
+   "min_app_version": "2.0.1"
+  },
+  {
+   "id": "airports",
+   "revision": 1,
+   "url": "airports.json",
+   "min_app_version": "2.0.1"
+  },
+  {
+   "id": "zoos",
+   "revision": 1,
+   "url": "zoos.json",
+   "min_app_version": "2.0.1"
+  },
+  {
+   "id": "aquariums",
+   "revision": 1,
+   "url": "aquariums.json",
+   "min_app_version": "2.0.1"
+  },
+  {
+   "id": "lighthouses",
+   "revision": 1,
+   "url": "lighthouses.json",
+   "min_app_version": "2.0.1"
   }
  ],
  "candidates": [
