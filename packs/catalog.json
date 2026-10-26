@@ -112,17 +112,27 @@
    "revision": 1,
    "url": "lighthouses.json",
    "min_app_version": "2.0.1"
+  },
+  {
+   "id": "onsen",
+   "revision": 1,
+   "url": "onsen.json",
+   "min_app_version": "2.0.1"
+  },
+  {
+   "id": "kokuho",
+   "revision": 1,
+   "url": "kokuho.json",
+   "min_app_version": "2.0.1"
+  },
+  {
+   "id": "capitals",
+   "revision": 1,
+   "url": "capitals.json",
+   "min_app_version": "2.0.1"
   }
  ],
  "candidates": [
-  {
-   "id": "onsen",
-   "title": "温泉地",
-   "title_en": "Hot Springs",
-   "subtitle": "全国の名湯・温泉地をめぐる",
-   "subtitle_en": "Famous hot-spring towns across Japan",
-   "icon": "drop"
-  },
   {
    "id": "waterfalls",
    "title": "日本の名瀑",
@@ -138,14 +148,6 @@
    "subtitle": "人が暮らす島を渡り歩く",
    "subtitle_en": "Hop around Japan's inhabited islands",
    "icon": "sailboat"
-  },
-  {
-   "id": "kokuho",
-   "title": "国宝の建造物",
-   "title_en": "National Treasure Buildings",
-   "subtitle": "国宝の寺社・城・建物を見に行く",
-   "subtitle_en": "Temples, shrines and castles designated National Treasures",
-   "icon": "building.columns.fill"
   },
   {
    "id": "museums",
@@ -170,14 +172,6 @@
    "subtitle": "全国のタワーと展望台にのぼる",
    "subtitle_en": "Climb Japan's towers and observation decks",
    "icon": "building.2"
-  },
-  {
-   "id": "capitals",
-   "title": "世界の首都",
-   "title_en": "World Capitals",
-   "subtitle": "世界の首都を訪ねる",
-   "subtitle_en": "Visit the capital cities of the world",
-   "icon": "flag"
   }
  ]
 }
