@@ -1,0 +1,5 @@
+/* The apps list (/apps/) keeps the shared site style; only its cards come from here. */
+.cards{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin:16px 0}
+.cards a.card{display:block;text-decoration:none;color:inherit;margin:0}
+.cards a.card h3{margin:0 0 4px}
+.cards a.card p{margin:0;opacity:.8;font-size:.92em}

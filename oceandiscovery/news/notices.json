@@ -1,0 +1,20 @@
+{
+ "items":[
+  {
+   "id":"2026-release",
+   "date":"2026-11-01",
+   "title":"Ocean Discovery へようこそ",
+   "body":"沖縄の海から、海の生きものをさがす旅がはじまります。\n汐見博士の依頼をこなしながら、図鑑を埋めていきましょう。\n攻略ページもあわせてどうぞ。",
+   "titleEn":"Welcome to Ocean Discovery",
+   "bodyEn":"Your journey begins in the seas of Okinawa.\nTake on Dr. Shiomi's requests and fill your field guide.\nThe guide pages are online too.",
+   "url":"https://tabinoteapp.com/oceandiscovery/guide/",
+   "linkLabel":"攻略ページを見る",
+   "linkLabelEn":"Open the guide",
+   "from":"",
+   "until":"",
+   "minVersion":"",
+   "maxVersion":"",
+   "important":false
+  }
+ ]
+}
