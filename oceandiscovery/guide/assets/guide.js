@@ -1,4 +1,3 @@
-// 生きもの図鑑の絞り込み: name / scientific name search, sea, rarity, time of day. Reads ?sea= from the URL.
 (function(){
  var dex=document.querySelector('[data-dex]');if(!dex)return;
  var cards=[].slice.call(dex.querySelectorAll('.mon')),st={q:'',sea:'',rar:'',day:''},count=document.querySelector('[data-count]');
