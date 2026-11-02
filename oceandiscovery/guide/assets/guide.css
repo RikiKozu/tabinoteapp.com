@@ -155,3 +155,10 @@ footer.site a{color:var(--ink2)}footer.site .brand{font-size:16px}
  .sp{grid-template-columns:1fr;gap:20px}.filters{top:56px}.dex{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
  .panel{padding:18px}.chart .pin{font-size:10.5px}
 }
+/* 特別な出会いの攻略 (マンタスクランブル) */
+.event{grid-column:1/-1;margin:6px 0 10px;padding:26px 28px;border:1px solid rgba(227,201,138,.35);border-radius:var(--r);background:rgba(227,201,138,.04)}
+.event h3{margin:4px 0 16px}
+.wrap>.event{margin-top:34px}
+.howto{margin:8px 0 0;padding-left:1.3em;color:var(--ink2);line-height:1.8}
+.howto li{margin:6px 0}.howto b{color:var(--ink)}
+@media (max-width:720px){.event{padding:18px}}
