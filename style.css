@@ -102,6 +102,7 @@ details.faq p { margin: 8px 0 0; }
 .picon { flex: none; width: 48px; height: 48px; border-radius: 12px; background: var(--app-accent); display: grid; place-items: center; font-size: 26px; }
 .pbody { display: flex; flex-direction: column; min-width: 0; }
 .packcard h3 { margin: 0; font-size: 17px; line-height: 1.4; }
+.appicon { flex: none; width: 56px; height: 56px; border-radius: 13px; box-shadow: 0 0 0 1px var(--line); }
 .psub { font-size: 14px; color: var(--sub); }
 .pmeta { font-size: 13px; color: var(--sub); margin-top: 4px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 
