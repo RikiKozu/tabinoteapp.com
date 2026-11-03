@@ -1,0 +1,14 @@
+event_id,name_ja,start,end,mission_id,metric,param,target,title_ja,desc_ja,tickets,cr
+hol_2027_newyear,海の年越し,2026-12-26,2027-01-07,ny27_morning,MorningDives,,1,初日の出ダイブ,朝の時間帯に潜る,2,500
+hol_2027_newyear,海の年越し,2026-12-26,2027-01-07,ny27_red,Species,oki_kingyohanadai;oki_akamatsukasa;oki_akahimeji;oki_akanehanadai;oki_nishikiebi,3,縁起のいい赤い生きもの,赤い魚やエビのうち3種をスキャンする,3,800
+hol_2027_newyear,海の年越し,2026-12-26,2027-01-07,ny27_star,StarPhotos4,,3,撮り初め,博士に★4以上を3回もらう,3,800
+hol_2027_newyear,海の年越し,2026-12-26,2027-01-07,ny27_dives,Dives,,5,潜り初め,期間中に5回潜る,2,600
+hol_2027_oceans,世界海洋デー 海をきれいに,2027-06-01,2027-06-14,od27_debris,Debris,,10,海のごみを拾う,期間中にごみを10個拾う,3,800
+hol_2027_oceans,世界海洋デー 海をきれいに,2027-06-01,2027-06-14,od27_turtle,Species,oki_aoumigame;oki_taimai,1,ウミガメに会う,アオウミガメかタイマイをスキャンする,2,500
+hol_2027_oceans,世界海洋デー 海をきれいに,2027-06-01,2027-06-14,od27_dives,Dives,,3,海に会いに行く,期間中に3回潜る,1,400
+hol_2027_summer,夏休みの自由研究,2027-07-24,2027-08-31,su27_new,NewSpecies,,5,新しい種を5種記録する,図鑑の？？？を埋めよう,3,1000
+hol_2027_summer,夏休みの自由研究,2027-07-24,2027-08-31,su27_night,NightDives,,2,夜の海を観察する,夜の時間帯に2回潜る,2,600
+hol_2027_summer,夏休みの自由研究,2027-07-24,2027-08-31,su27_photos,Photos,,20,観察写真を20枚撮る,期間中に写真を20枚撮る,2,600
+hol_2027_halloween,ハロウィンの夜の海,2027-10-24,2027-10-31,hw27_night,NightDives,,1,夜の海へ,夜の時間帯に潜る,1,400
+hol_2027_halloween,ハロウィンの夜の海,2027-10-24,2027-10-31,hw27_spooky,Species,oki_minokasago;oki_onidarumaokoze;oki_dokuutsubo;oki_hyoumondako;oki_hanahigeutsubo,3,ちょっとこわい海の生きもの,毒やするどい歯をもつ生きもののうち3種をスキャンする,3,800
+hol_2027_halloween,ハロウィンの夜の海,2027-10-24,2027-10-31,hw27_star,StarPhotos4,,2,夜の傑作写真,博士に★4以上を2回もらう,2,600
