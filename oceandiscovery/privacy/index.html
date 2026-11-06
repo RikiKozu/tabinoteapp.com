@@ -11,23 +11,27 @@
 <body><main>
 <header><a class="brand" href="/oceandiscovery/">Ocean Discovery</a><nav><a href="/oceandiscovery/support/">サポート</a><a href="/oceandiscovery/privacy/">プライバシーポリシー</a></nav></header>
 <h1>プライバシーポリシー</h1>
-<p class="meta">制定日：2026年10月22日　改定日：2026年11月3日　<a href="#en">English</a></p>
+<p class="meta">制定日：2026年10月22日　改定日：2026年11月5日　<a href="#en">English</a></p>
 <p>Ocean Discovery（以下「本アプリ」）の運営者（以下「運営者」）は、本アプリの利用者（以下「利用者」）の情報を次のとおり取り扱います。</p>
 
 <h2>1. 運営者が取得する情報</h2>
-<p>本アプリにはアカウント登録がなく、運営者が利用者の氏名・メールアドレス・電話番号・位置情報などを取得することはありません。広告、解析ツール、トラッキングは使用していません。</p>
+<p>本アプリにはアカウント登録がなく、運営者が利用者の氏名・メールアドレス・電話番号・位置情報などを取得することはありません。広告とトラッキングは使用していません。アプリの改善のため、どの機能がどのくらい使われているかを、個人を特定できない形で集計しています（下の「利用状況の送信」）。</p>
 <p>ゲームの進行（図鑑、装備、ミッション、展示室など）、設定、ゲーム内で撮影した写真は、利用者の端末の中だけに保存されます。運営者のサーバーはなく、運営者がこれらのデータを見ることも、取り出すこともできません。</p>
-<p><strong>名前とユーザーID</strong>：初回起動時に入力する名前と、端末で自動的につくられるユーザーIDは、端末の中だけに保存されます。名前は図鑑や共有画像に表示するためだけに使い、運営者に送ることはありません。ユーザーIDは将来の機能のために用意しているもので、現在はどこにも送信しません。</p>
+<p><strong>名前とユーザーID</strong>：初回起動時に入力する名前と、端末で自動的につくられるユーザーIDは、端末の中だけに保存されます。名前は図鑑や共有画像に表示するためだけに使い、運営者に送ることはありません。ユーザーIDはそのままでは送りません。利用状況の集計には、ユーザーIDを元に戻せない形に変換した値（SHA-256 のハッシュ）だけを使います。</p>
 <p><strong>写真</strong>：ゲーム内の「撮影」で保存されるのは、ゲームの画面の画像だけです。端末のカメラとマイクにはアクセスしません。図鑑の「共有」で共有シートの「画像を保存」を選んだときだけ、共有画像を写真ライブラリに追加します（追加の許可のみで、写真ライブラリの中身を読み取ることはありません）。共有先に何を送るかは、利用者が共有シートで選びます。</p>
+<p><strong>利用状況の送信</strong>：アプリを開いた、潜った、生きものを見つけた（種の名前）、調達便を引いた、ショップを開いた・購入した、物語の場面を見た、といった操作の記録を、アプリの版と表示言語とともに TelemetryDeck に送ります。名前・写真・位置情報・広告 ID は送りません。利用者を特定する目的やトラッキング、広告には使いません。「設定」→「利用状況の送信」をオフにすると、送信を止められます。</p>
+<p><strong>バディ招待</strong>：招待コードを使うと、招待コード、ユーザーIDを元に戻せない形に変換した値、潜った回数（3回まで）を、Apple の iCloud（CloudKit）にあるこのアプリのデータベースに保存します。友達が潜った人数を数えて、お礼を渡すためだけに使います。名前や写真は保存しません。iCloud のアカウント情報は Apple が取り扱い、運営者は受け取りません。</p>
 
 <h2>2. 外部サービスが取得する情報</h2>
-<p>本アプリが通信するのは、App Store での購入、Game Center（実績・ランキング）、運営者からのお知らせの読み込みに関わる場合だけです。</p>
+<p>本アプリが通信するのは、App Store での購入、Game Center（実績・ランキング）、運営者からのお知らせの読み込み、利用状況の送信（設定でオフにできます）、バディ招待に関わる場合だけです。</p>
 <div class="card scroll">
 <table>
 <tr><th>サービス</th><th>目的</th><th>取得される主な情報</th></tr>
 <tr><td>Apple<br>（Apple Inc.）</td><td>App Store でのアプリ内購入（応援・着せ替え・特殊装備など）と購入状態の確認</td><td>Apple のプライバシーポリシーに基づく情報。支払い情報は Apple が取り扱い、運営者は受け取りません</td></tr>
 <tr><td>Game Center<br>（Apple Inc.）</td><td>実績とランキング（利用者が Game Center にサインインしている場合のみ）</td><td>解除した実績と、図鑑で見つけた生きものの種類数。Game Center のアカウントに記録され、運営者は受け取りません</td></tr>
 <tr><td>お知らせ<br>（GitHub Pages / GitHub, Inc.）</td><td>アプリ内の「お知らせ」の一覧を、このサイト（tabinoteapp.com）から読み込みます</td><td>利用者の情報は送りません。一般的な Web ページの閲覧と同じく、IP アドレスなどの接続記録がサイトの配信サービスに残ることがあります。運営者はこの記録を利用しません</td></tr>
+<tr><td>TelemetryDeck<br>（TelemetryDeck GmbH・ドイツ）</td><td>機能の使われ方の集計（設定でオフにできます）</td><td>上記の操作の記録、アプリの版、表示言語、変換したユーザーID。<a href="https://telemetrydeck.com/privacy/">TelemetryDeck のプライバシーポリシー</a>に基づいて取り扱われます</td></tr>
+<tr><td>iCloud（CloudKit）<br>（Apple Inc.）</td><td>バディ招待の記録（招待コードを使った場合のみ）</td><td>招待コード、変換したユーザーID、潜った回数（3回まで）。Apple のプライバシーポリシーに基づいて取り扱われます</td></tr>
 </table>
 </div>
 <p>本アプリは購入の確認のため、App Store から受け取る購入記録を端末の中で検証します。購入記録を運営者に送ることはありません。</p>
@@ -40,7 +44,7 @@
 <p>本アプリを削除すると、端末に保存された進行・設定・写真などのデータはすべて削除されます。ゲーム内の写真は、図鑑の「写真」タブからいつでも削除できます。</p>
 
 <h2>5. お子さまの利用</h2>
-<p>本アプリは年齢を問わず、利用者の個人情報を取得しません。アプリ内購入には、保護者の方の管理のもとで iPhone の「スクリーンタイム」などの機能をご利用いただけます。</p>
+<p>本アプリは年齢を問わず、利用者の個人情報を取得しません。利用状況の送信は個人を特定できない集計だけで、「設定」からオフにできます。アプリ内購入には、保護者の方の管理のもとで iPhone の「スクリーンタイム」などの機能をご利用いただけます。</p>
 
 <h2>6. このポリシーの変更</h2>
 <p>内容を変更する場合は、このページで改定日とともにお知らせします。</p>
@@ -50,20 +54,24 @@
 
 <hr id="en">
 <h1>Privacy Policy (English)</h1>
-<p class="meta">Effective: October 22, 2026 — Last updated: November 3, 2026</p>
+<p class="meta">Effective: October 22, 2026 — Last updated: November 5, 2026</p>
 <p>This policy explains how the developer of Ocean Discovery ("the app") handles information about its users.</p>
 <h2>1. Information the developer collects</h2>
-<p>The app has no accounts. The developer does not collect your name, email address, phone number, location or any similar information, and the app uses no advertising, analytics or tracking.</p>
+<p>The app has no accounts. The developer does not collect your name, email address, phone number, location or any similar information, and the app uses no advertising or tracking. To improve the app, it counts how features are used, in a form that does not identify you (see Usage data below).</p>
 <p>Your game progress (field guide, gear, missions, exhibit room and so on), settings and in-game photos are stored only on your device. There is no developer server; the developer cannot see or retrieve this data.</p>
-<p><strong>Name and user ID</strong>: the name you enter on first launch and a user ID created automatically on your device are stored only on the device. The name is used only to show in your field guide and share images and is never sent to the developer. The user ID is reserved for future features and is not sent anywhere today.</p>
+<p><strong>Name and user ID</strong>: the name you enter on first launch and a user ID created automatically on your device are stored only on the device. The name is used only to show in your field guide and share images and is never sent to the developer. The user ID is never sent as is; usage counts use only a one-way SHA-256 hash of it.</p>
 <p><strong>Photos</strong>: "Photo" in the game saves only a picture of the game screen. The app does not use the camera or microphone. Only when you choose "Save Image" in the share sheet (Field Guide → Share) does the app add the share image to your photo library (add-only access; the app never reads your photo library). You decide in the share sheet what to share and where.</p>
+<p><strong>Usage data</strong>: the app sends records of actions — opening the app, dives, species found (by name), supply runs, opening the shop and purchases, story scenes seen — with the app version and display language to TelemetryDeck. No name, photos, location or advertising ID. Not used to identify you, for tracking or for ads. Turn it off in Settings → Share Usage Data.</p>
+<p><strong>Invite a Buddy</strong>: when you use invite codes, the app stores the code, a one-way hash of your user ID and your dive count (up to 3) in the app's database on Apple's iCloud (CloudKit), only to count friends who dived and give the rewards. No name or photos are stored. Your iCloud account is handled by Apple; the developer does not receive it.</p>
 <h2>2. Information handled by other services</h2>
-<p>The app communicates only for App Store purchases, Game Center (achievements and leaderboards) and loading the developer's notices.</p>
+<p>The app communicates only for App Store purchases, Game Center (achievements and leaderboards), loading the developer's notices, sending usage data (can be turned off in Settings) and Invite a Buddy.</p>
 <div class="card scroll"><table>
 <tr><th>Service</th><th>Purpose</th><th>Main information</th></tr>
 <tr><td>Apple (Apple Inc.)</td><td>In-app purchases on the App Store (support, outfits, special gear) and checking what you own</td><td>Information under Apple's privacy policy. Payment details are handled by Apple; the developer does not receive them</td></tr>
 <tr><td>Game Center (Apple Inc.)</td><td>Achievements and leaderboards (only when you are signed in to Game Center)</td><td>Achievements you unlock and the number of species in your field guide, recorded to your Game Center account. The developer does not receive them</td></tr>
 <tr><td>Notices (GitHub Pages / GitHub, Inc.)</td><td>The in-app Notices list is loaded from this site (tabinoteapp.com)</td><td>No information about you is sent. As with any web page, the hosting service may log connection details such as your IP address; the developer does not use these logs</td></tr>
+<tr><td>TelemetryDeck (TelemetryDeck GmbH, Germany)</td><td>Counting how features are used (can be turned off in Settings)</td><td>The actions above, app version, display language and the hashed user ID, handled under <a href="https://telemetrydeck.com/privacy/">TelemetryDeck's privacy policy</a></td></tr>
+<tr><td>iCloud / CloudKit (Apple Inc.)</td><td>Invite a Buddy records (only when you use invite codes)</td><td>The invite code, the hashed user ID and your dive count (up to 3), handled under Apple's privacy policy</td></tr>
 </table></div>
 <p>To confirm purchases, the app checks the purchase records it receives from the App Store on your device. Purchase records are never sent to the developer.</p>
 <p><a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></p>
@@ -72,7 +80,7 @@
 <h2>4. Deleting your data</h2>
 <p>Deleting the app deletes all progress, settings and photos stored on the device. In-game photos can be deleted at any time from the Photos tab of the field guide.</p>
 <h2>5. Children</h2>
-<p>The app does not collect personal information from anyone, of any age. Parents can manage in-app purchases with features such as Screen Time on iPhone.</p>
+<p>The app does not collect personal information from anyone, of any age. Usage data is counted only in a form that does not identify you and can be turned off in Settings. Parents can manage in-app purchases with features such as Screen Time on iPhone.</p>
 <h2>6. Changes to this policy</h2>
 <p>If this policy changes, the new version will be posted on this page with its update date.</p>
 <h2>7. Contact</h2>
