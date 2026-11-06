@@ -1,20 +1,37 @@
 {
- "items":[
+ "items": [
   {
-   "id":"2026-release",
-   "date":"2026-11-01",
-   "title":"Ocean Discovery へようこそ",
-   "body":"沖縄の海から、海の生きものをさがす旅がはじまります。\n汐見博士の依頼をこなしながら、図鑑を埋めていきましょう。\n攻略ページもあわせてどうぞ。",
-   "titleEn":"Welcome to Ocean Discovery",
-   "bodyEn":"Your journey begins in the seas of Okinawa.\nTake on Dr. Shiomi's requests and fill your field guide.\nThe guide pages are online too.",
-   "url":"https://tabinoteapp.com/oceandiscovery/guide/",
-   "linkLabel":"攻略ページを見る",
-   "linkLabelEn":"Open the guide",
-   "from":"",
-   "until":"",
-   "minVersion":"",
-   "maxVersion":"",
-   "important":false
+   "id": "2026-11-next-update",
+   "date": "2026-11-06",
+   "title": "次回アップデートのお知らせ",
+   "body": "12月頃に、宮古島の海を追加する予定です。",
+   "titleEn": "Next update",
+   "bodyEn": "Miyako Island's sea is planned to arrive around December.",
+   "url": "",
+   "linkLabel": "",
+   "linkLabelEn": "",
+   "from": "",
+   "until": "",
+   "minVersion": "",
+   "maxVersion": "1.1.99",
+   "important": false,
+   "pinned": true
+  },
+  {
+   "id": "2026-release",
+   "date": "2026-11-01",
+   "title": "Ocean Discovery へようこそ",
+   "body": "沖縄の海から、海の生きものをさがす旅がはじまります。\n汐見博士の依頼をこなしながら、図鑑を埋めていきましょう。\n攻略ページもあわせてどうぞ。",
+   "titleEn": "Welcome to Ocean Discovery",
+   "bodyEn": "Your journey begins in the seas of Okinawa.\nTake on Dr. Shiomi's requests and fill your field guide.\nThe guide pages are online too.",
+   "url": "https://tabinoteapp.com/oceandiscovery/guide/",
+   "linkLabel": "攻略ページを見る",
+   "linkLabelEn": "Open the guide",
+   "from": "",
+   "until": "",
+   "minVersion": "",
+   "maxVersion": "",
+   "important": false
   }
  ]
 }
